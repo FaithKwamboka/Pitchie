@@ -16,6 +16,12 @@ As a user I would like to:
 * View the pitches I have created in my profile page.
 * Comment on the different pitches and leave feedback.
 
+* To view Pitch Categories
+![Pitch](https://user-images.githubusercontent.com/100117264/167313883-ec6c4125-1cb0-4727-b8eb-3eb32fd5c35b.png)
+
+* To view Pitches, Comment and Vote
+![Pitch_2](https://user-images.githubusercontent.com/100117264/167313894-c8856068-a5f2-4f6f-9499-9b7f3c79e9da.png)
+
 ## Specifications
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
