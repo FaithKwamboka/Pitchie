@@ -1,14 +1,24 @@
 {% extends 'base.html'%}
 {% block styles%} {{ super() }}
-<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> {% endblock %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}"> {% endblock %}
 {% block content %}
 
 <body>
-  <h3>Welcome to  Pitchie</h3><br>
-   <h3>Showcase your one Minute pitches and shine!</h3>
+  <h3>Welcome to  Pitchie !!</h3><br>
+  <h3>Showcase your one Minute pitches and shine!</h3>
   <br>
   <div class="d-flex justify-content-center">
     <div class="card-groups">
+      <div class="card border-info mb-3" style="max-width: 35rem;">
+        <div class="card-header">Life</div>
+        <div class="card-body text-info">
+          <h5 class="card-title">Life Pitches</h5>
+          <p class="card-text">This pitches to help you navigate through life. Overcome the world's toughest challenges with just one pitch.</p>
+          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
+          <button type="button" class="btn btn-outline-primary"><a href="/categories/funny">Read Pitches</a></button>
+        </div>
+      </div>
+
       <div class="card border-info mb-3" style="max-width: 35rem;">
         <div class="card-header">Product</div>
         <div class="card-body text-info">
@@ -29,15 +39,6 @@
         </div>
       </div>
 
-      <div class="card border-info mb-3" style="max-width: 35rem;">
-        <div class="card-header">Life</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Life Pitches</h5>
-          <p class="card-text">This pitches to help you navigate through life. Overcome the world's toughest challenges with just one pitch.</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/funny">Read Pitches</a></button>
-        </div>
-      </div>
 
     </div>
   </div>
