@@ -4,45 +4,51 @@
 {% block content %}
 
 <body>
+  <br><br><br>
   <h3>Welcome to  Pitchie !!</h3><br>
   <h3>Showcase your one Minute pitches and shine!</h3>
-  <br>
-  <div class="d-flex justify-content-center">
-    <div class="card-groups">
-
-      <div class="card border-info mb-3" style="max-width: 35rem;">
-        <div class="card-header">Product</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Product Pitches</h5>
-          <p class="card-text">Give a pitch that makes people want to invest in your product.Sell it in the best way you know!!</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/life">Read Pitches</a></button>
+  <br><br><br><br>
+  <div class="container">
+    <div class="d-flex justify-content-center">
+      <div class="card-groups">
+      <div class="row"> 
+        <div class="col-md-4">
+          <div class="card border-info mb-3" style="max-width: 50rem;">
+            <div class="card-header">Product</div>
+            <div class="card-body text-info">
+              <h5 class="card-title">Product Pitches</h5>
+              <p class="card-text">Give a pitch that makes people want to invest in your product.Sell it in the best way you know!!</p>
+              <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
+              <button type="button" class="btn btn-outline-primary"><a href="/categories/life">Read Pitches</a></button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card border-info mb-3" style="max-width: 50rem;">
+            <div class="card-header">Life</div>
+            <div class="card-body text-info">
+              <h5 class="card-title">Life Pitches</h5>
+              <p class="card-text">This pitches to help you navigate through life. Overcome the world's toughest challenges with just one pitch.</p>
+              <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
+              <button type="button" class="btn btn-outline-primary"><a href="/categories/funny">Read Pitches</a></button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4">
+          <div class="card border-info mb-3" style="max-width: 35rem;">
+            <div class="card-header">Interview</div>
+            <div class="card-body text-info">
+              <h5 class="card-title">Interview Pitches</h5>
+              <p class="card-text">Ace that interview like a pro.This is your chance to shine and smile all the way to the bank.</p>
+              <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
+              <button type="button" class="btn btn-outline-primary"><a href="/categories/coding">Read Pitches</a></button>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="card border-info mb-3" style="max-width: 35rem;">
-        <div class="card-header">Life</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Life Pitches</h5>
-          <p class="card-text">This pitches to help you navigate through life. Overcome the world's toughest challenges with just one pitch.</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/funny">Read Pitches</a></button>
-        </div>
-      </div>
-
-      <div class="card border-info mb-3" style="max-width: 35rem;">
-        <div class="card-header">Interview</div>
-        <div class="card-body text-info">
-          <h5 class="card-title">Interview Pitches</h5>
-          <p class="card-text">Ace that interview like a pro.This is your chance to shine and smile all the way to the bank.</p>
-          <button type="button" class="btn btn-outline-primary"><a href="../pitch/">Add Pitch</a></button>
-          <button type="button" class="btn btn-outline-primary"><a href="/categories/coding">Read Pitches</a></button>
-        </div>
-      </div>
-
-
     </div>
   </div>
-
   {% endblock%}
 </body>
