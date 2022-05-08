@@ -14,7 +14,7 @@ def index():
     return
     '''
     message= "Hello"
-    title= 'Pitch It Ip!'
+    title= 'Pitchie!'
     return render_template('index.html', message=message,title=title)
 
 @main.route('/pitch/', methods = ['GET','POST'])
