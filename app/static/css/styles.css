@@ -1,0 +1,44 @@
+.container {
+    align-items: center;
+  }
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(rgb(127, 142, 255), rgb(86, 173, 202),blue); */
+    background-color: rgb(193, 174, 210);
+    
+
+}
+
+form input {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-groups{
+    font-size: 17px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 15px;
+    /* color: black; */
+}
+
+.navbar{
+    background-color: rgb(107, 104, 104);
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    padding-right: 15px;
+}
+
+.btn{
+    font-size: 15px;
+}

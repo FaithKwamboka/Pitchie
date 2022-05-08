@@ -1,0 +1,31 @@
+body{
+    font-size: 20px;
+}
+
+.blockquote-footer{
+    font-size: 13px;
+}
+
+.card{
+    font-size: 15px;
+    color: black;
+}
+
+#btn{
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+.blockquote{
+    font-size: 15px;
+    color: black; 
+}
+
+.card-footer {
+    font-size: 20px;  
+}
+
+.btn{
+    font-size: 15px; 
+    align-self: center;
+}
