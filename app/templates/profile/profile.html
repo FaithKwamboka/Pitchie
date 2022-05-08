@@ -1,5 +1,11 @@
 {% extends 'base.html'%}
 
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles%} {{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/profile.css')}}"> 
+{% endblock %}
+
 {% block content %}
 {% if user == current_user %}
 
@@ -13,7 +19,7 @@
       <h3>Author:  {{user.author| capitalize}} </h3>
       <br>
       <hr>
-      <a href="{{url_for('main.update_profile',uname=user.author)}}">Edit profile</a>
+      <a href="{{url_for('main.update_profile',uname=user.author)}}">Edit profile</a><br>
       <!--Displaying user bio-->
       {% if user.bio %}
       <br>
