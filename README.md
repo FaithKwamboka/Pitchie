@@ -11,10 +11,10 @@ User features/behaviours are as below.
 
 As a user I would like to:
 * See the pitches other people have posted.
-![Pitch_2](https://user-images.githubusercontent.com/100117264/167313894-c8856068-a5f2-4f6f-9499-9b7f3c79e9da.png)
+![pitch-3](https://user-images.githubusercontent.com/100117264/167315008-6982a52b-097e-4e73-86d4-6d63b7961b30.png)
 
 * Submit a pitch in any category.
-![Pitch](https://user-images.githubusercontent.com/100117264/167313883-ec6c4125-1cb0-4727-b8eb-3eb32fd5c35b.png)
+![pitch-4](https://user-images.githubusercontent.com/100117264/167315011-583e1aed-1e58-4dce-81be-a536e6ba353a.png)
 
 * Leave a comment upon signing in.
 * View the pitches I have created in my profile page.
