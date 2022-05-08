@@ -39,6 +39,11 @@ form input {
     padding-right: 15px;
 }
 
+.navbar-brand{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
 .btn{
     font-size: 15px;
 }
