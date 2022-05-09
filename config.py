@@ -3,8 +3,8 @@ import os
 class Config:
 
     SECRET_KEY=os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kwamboka:kwamboka@localhost/pitchie'
-
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kwamboka:kwamboka@localhost/pitchie'
+    SQLALCHEMY_DATABASE_URI = 'postgres://amkzcodphgpjma:02e66eaaa6a49b0de4994d216778e624bfe3059ff15cf7d5e1a756c3726da2de@ec2-52-71-69-66.compute-1.amazonaws.com:5432/df4s8d2jutk2v9'
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
 
@@ -33,6 +33,11 @@ class ProdConfig(Config):
         Config: The parent configuration class with General configuration settings
     '''
     # SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    uri = os.getenv('DATABASE_URL')
+    if uri and uri.startswith('postgres://'):
+        uri = uri.replace('postgres://', 'postgresql://', 1)
+        
+        SQLALCHEMY_DATABASE_URI=uri
 
 class TestConfig(Config):
    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://kwamboka:kwamboka@localhost/pitchie_test'
